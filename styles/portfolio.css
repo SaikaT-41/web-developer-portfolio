@@ -1,11 +1,11 @@
 /*Common Shared styles */
 body {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: <weight>;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" <width>;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" <width>;
 }
 
 /* nav releted style */
@@ -54,7 +54,21 @@ nav a {
     font-weight: 700;
     padding: 16px 35px;
 }
+
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 40px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.pro-pic {
+
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
